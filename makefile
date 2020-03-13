@@ -1,8 +1,9 @@
 CC = gcc
 PARAMS = -W
+NAME = sudokuc
 
-sudokuc: main.o resolver.o
-	$(CC) -o sudokuc main.o resolver.o $(PARAMS)
+$(NAME): main.o resolver.o
+	$(CC) -o $(NAME) main.o resolver.o $(PARAMS)
 
 main.o: main.c
 	$(CC) -c main.c $(PARAMS)
