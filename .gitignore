@@ -1,4 +1,4 @@
 /sudokuc
 /sudokuc.exe
-main.o
-resolver.o
+/main.o
+/resolver.o
